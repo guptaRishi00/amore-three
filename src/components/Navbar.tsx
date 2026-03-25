@@ -15,26 +15,22 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 px-6 py-4 ${
-        scrolled ? "md:top-4" : "md:top-6"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 px-6 py-4 ${scrolled ? "md:top-4" : "md:top-6"
+        }`}
     >
       <div
-        className={`max-w-6xl mx-auto flex justify-between items-center px-6 md:px-10 py-3 rounded-full border border-white/40 transition-all duration-500 ${
-          scrolled
+        className={`max-w-6xl mx-auto flex justify-between items-center px-6 md:px-10 py-3 rounded-full border border-white/40 transition-all duration-500 ${scrolled
             ? "bg-white/40 backdrop-blur-2xl shadow-xl"
             : "bg-white/20 backdrop-blur-md"
-        }`}
+          }`}
       >
         <div className="flex items-center gap-2 group cursor-pointer">
           <img
             className="h-10 w-auto transition-transform group-hover:scale-110"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkB_LwcfOrRpEt1amHAT6Qj4jpFc8k98C6BuhVkDFxcMyRnMswyLresSikcpx_FlToJfi1lR0ftUr5B5gyvdpGx23ml4Cag2N3ImEafcLZ0XFzwIEYKXoYAnI96rJFeNW-iv7H-7Yl_vyLR7MeU9tgwJN03zca4LbG985sFCYm2fr9yNlOQ6wlDyPxsQqsnpcSoGKmPH_te03mFVbniuNJzaNE4Jw1qi1VbxOWbibv7vHm_ke223nErG_QulXCEL9IwSoAhVqGxPUK"
+            src="/logo.png"
             alt="Logo"
           />
-          <span className="text-2xl font-black italic bubbly-text pb-1 hidden sm:block">
-            Frosted
-          </span>
+
         </div>
 
         <div className="hidden md:flex items-center gap-8 text-xs font-extrabold tracking-widest uppercase font-['Plus_Jakarta_Sans']">

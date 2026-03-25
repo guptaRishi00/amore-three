@@ -7,12 +7,10 @@ export default function Footer() {
       <div className="flex items-center gap-3">
         <img
           className="h-12 w-auto transition-transform duration-500 hover:scale-110 hover:-rotate-6"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkB_LwcfOrRpEt1amHAT6Qj4jpFc8k98C6BuhVkDFxcMyRnMswyLresSikcpx_FlToJfi1lR0ftUr5B5gyvdpGx23ml4Cag2N3ImEafcLZ0XFzwIEYKXoYAnI96rJFeNW-iv7H-7Yl_vyLR7MeU9tgwJN03zca4LbG985sFCYm2fr9yNlOQ6wlDyPxsQqsnpcSoGKmPH_te03mFVbniuNJzaNE4Jw1qi1VbxOWbibv7vHm_ke223nErG_QulXCEL9IwSoAhVqGxPUK"
+          src="/logo.png"
           alt="Footer Logo"
         />
-        <span className="text-3xl font-black bubbly-text tracking-tight">
-          Frosted Penguins
-        </span>
+
       </div>
 
       <div className="flex flex-wrap justify-center gap-10 font-['Plus_Jakarta_Sans'] text-xs font-black uppercase tracking-[0.3em] text-blue-800">
