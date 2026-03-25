@@ -23,7 +23,7 @@ export default function Hero() {
             Enter The Dream
           </button>
           <button className="w-full sm:w-auto px-10 py-5 bg-white/30 backdrop-blur-3xl border-2 border-white/60 rounded-full text-lg md:text-xl font-black text-blue-700 flex items-center justify-center gap-3 hover:bg-white/50 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md">
-            <Sparkles size={24} className="text-amber-500" /> Our Legend
+            Our Legend
           </button>
         </div>
       </div>

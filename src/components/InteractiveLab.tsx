@@ -4,7 +4,7 @@ import { Sparkles, Leaf } from "lucide-react";
 export default function InteractiveLab() {
   return (
     <section className="py-32 px-6">
-      <div className="max-w-7xl mx-auto gelato-bubble p-10 md:p-24 liquid-sheen border-8 border-white/20 shadow-2xl">
+      <div className="max-w-7xl mx-auto rounded-[3rem] bg-white/40 backdrop-blur-2xl p-10 md:p-24 liquid-sheen border-8 border-white/20 shadow-2xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="relative z-10">
             <div className="mb-8 inline-flex items-center gap-4 text-blue-700 font-black uppercase tracking-widest">

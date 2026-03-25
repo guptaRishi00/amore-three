@@ -18,7 +18,7 @@ export default function Mythology() {
             <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-32 h-32 bg-white/10 blur-[60px] rounded-full"></div>
           </div>
           <div className="lg:w-1/2 space-y-10 order-1 lg:order-2">
-            <h2 className="text-5xl md:text-7xl font-black leading-tight bubbly-text text-white! filter-none! drop-shadow-lg">
+            <h2 className="text-5xl md:text-7xl font-black leading-tight text-white! filter-none! drop-shadow-lg">
               Melting Point <br /> Mythology
             </h2>
             <p className="text-lg md:text-2xl font-medium leading-relaxed opacity-90 drop-shadow-md">
